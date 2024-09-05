@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap');
+
+*,
+
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    background: #e9eaff;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body__wrapper{    
+    padding: 1rem 1rem;
+    min-width: 1100px;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1.2fr;
+    gap: 1rem; 
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+.container{
+    width: 90%;
+    display: grid;
+    margin: 2rem;
+    grid-template-areas:"menu__wrapper newcourse__wrapper newcourse__wrapper profile-wrapper";
+}
+
+input{
+    padding: 10px;
+    color: aliceblue;
+}
+
+button{
+    cursor: pointer;
+    font-family: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    font-family: inherit;
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: 0;
+    font-size: 0.75rem;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.btn-primary{
+    width: auto;
+    height: 37px;
+    margin: 8px 0px;
+    background-color: #7b81d3;
+    border-radius: 0.5rem;
+}
+
+/* BEM */   
+
+.btn-primary:hover{
+    background-color: transparent;
+    border: 1px solid #7b81d3;
+    color: #0c121a;
+}
+
+.btn-tab{
+    width: 100%;
+    display: flex;
+    justify-items:flex-start;
+    padding: 10px 2px;
+    background: transparent;
+    color: gray;
+}
+
+.btn-tab:hover{
+    background-color: #e9eaff;
+    color: #0c121a;
+    border: none;
+}
+
+.btn-detail{
+    font-size: small;
+    color: aliceblue;    
+    border: 1px solid #7b81d3;
+
+}
+
+.btn-detail:hover{
+    background: transparent;
+    color: #0c121a;
+}
+
+.btn-bell{
+    margin-left: 8px;
+    width: aoto;
+    padding: 5px;color: gray;
+    background: white;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 1rem 1rem 4rem 1rem aliceblue;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;   
+}
+
+.btn-bell:hover{
+    color: #0c121a;
+    background-color: #7b81d3;
+}
+
+.next-btn{
+    display: flex;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+}
+
+.view-btn{
+    padding: 10px;
+    font-size: small;
+    background: transparent;
+    color: #7b81d3;
+}
+
+.view-btn:hover{
+    color: aliceblue;
+    background-color: #7b81d3;
+}
+
+.course__name button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 41px;
+    width: 41px;
+}
+
+.web-btn{
+    color: #7b81d3;
+    background-color: #e9eaff;
+}
+
+.develop-btn{
+    color: #5aa9e6;
+    background-color: #e9f6ff;
+}
+
+.data-btn{
+    color: #d795d8;
+    background-color: #ffecf8;
+}
+
+.html-btn{
+    color: #7b81d3;
+    background-color: #e9eaff;
+}
+
+.java-btn{
+    color: #f4a261;
+    background-color: #feeddd;
+}
+
+.cal-btn{
+    background-color: transparent;
+    width: auto;
+    padding: 5px;
+    margin: 0px 3px;
+}
+.cal-btn:hover{
+    background-color: #7b81d3;
+    border: 1px;
+    color: aliceblue;
+}
