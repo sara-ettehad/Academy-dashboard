@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { FaDiamond } from "react-icon/fa FaDiamond";
 
 import "../styles/body.css"
 import "../styles/sidebar.css"
@@ -14,8 +13,8 @@ const Home = () => {
                     <div class="">
                         <div class="sidebar__wrapper">
                             <div class="sidebar__logo">
-                                <div class="logo__left"><FaDiamond/></div>
-                                <div class="logo__right"><FaDiamond/></div>
+                                <div class="logo__left"></div>
+                                <div class="logo__right"></div>
                                 <p>Academy</p>
                             </div>
                             <div class="sidebar__tabs">
